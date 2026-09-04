@@ -1,11 +1,7 @@
-# 网站 SEO 元数据（用于 Google 搜索和社交媒体卡片预览）
+# 禁掉 Jekyll 的原生主题，只做 SEO 和纯文本渲染
+theme: null
+
+# 搜索引擎（Google/Bing）抓取时显示的标题和摘要
 title: "Dongsheng Wang | AI Applied Scientist & Quantitative Researcher"
 description: "Personal homepage of Dongsheng Wang, Incoming Lead Applied Scientist at Thomson Reuters Lab, AI Quant Researcher at Verition, former VP & AI Research Lead at J.P. Morgan."
 author: Dongsheng Wang
-
-# 禁用 Minima 主题的顶部导航栏，防止页面顶部出现重复标题
-header_pages: []
-
-# Jekyll 渲染设置
-markdown: kramdown
-theme: minima
