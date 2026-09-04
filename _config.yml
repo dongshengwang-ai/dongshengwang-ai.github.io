@@ -1,8 +1,11 @@
-title: Dongsheng Wang | AI Applied Scientist & Quantitative Researcher
-description: Personal homepage of Dongsheng Wang, Incoming Lead Applied Scientist at Thomson Reuters Lab, AI Quant Researcher at Verition, former VP & AI Research Lead at J.P. Morgan AI Research (DocLLM).
+# 网站 SEO 元数据（用于 Google 搜索和社交媒体卡片预览）
+title: "Dongsheng Wang | AI Applied Scientist & Quantitative Researcher"
+description: "Personal homepage of Dongsheng Wang, Incoming Lead Applied Scientist at Thomson Reuters Lab, AI Quant Researcher at Verition, former VP & AI Research Lead at J.P. Morgan."
 author: Dongsheng Wang
 
-# SEO 与 社交媒体分享卡片设置
-google_site_verification: "" # 如果后续提交 Google Search Console 验证可以填在这里
+# 禁用 Minima 主题的顶部导航栏，防止页面顶部出现重复标题
+header_pages: []
+
+# Jekyll 渲染设置
 markdown: kramdown
-theme: minima # 或者你正在使用的 GitHub Pages 主题
+theme: minima
