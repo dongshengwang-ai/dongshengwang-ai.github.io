@@ -1,2 +1,8 @@
-theme: jekyll-theme-minimal
-title: Dongsheng Wang
+title: Dongsheng Wang | AI Applied Scientist & Quantitative Researcher
+description: Personal homepage of Dongsheng Wang, Incoming Lead Applied Scientist at Thomson Reuters Lab, AI Quant Researcher at Verition, former VP & AI Research Lead at J.P. Morgan AI Research (DocLLM).
+author: Dongsheng Wang
+
+# SEO 与 社交媒体分享卡片设置
+google_site_verification: "" # 如果后续提交 Google Search Console 验证可以填在这里
+markdown: kramdown
+theme: minima # 或者你正在使用的 GitHub Pages 主题
