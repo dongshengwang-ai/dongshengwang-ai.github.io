@@ -1,87 +1,114 @@
 ---
 ---
-<style>
-  body {
-    max-width: 800px;
-    margin: 40px auto;
-    padding: 0 30px;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    line-height: 1.65;
-    color: #24292e;
-    font-weight: 350;
-  }
-  h1 { font-weight: 600; color: #111; margin-bottom: 5px; }
-  h2, h3 { font-weight: 500; color: #111; margin-top: 30px; }
-  a { color: #0366d6; text-decoration: none; }
-  a:hover { text-decoration: underline; }
-  hr { border: none; border-top: 1px solid #e1e4e8; margin: 30px 0; }
-  
-  .profile-avatar {
-    float: right;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin-left: 30px;
-    margin-bottom: 10px;
-    object-fit: cover;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  }
-
-  @media (max-width: 600px) {
-    .profile-avatar {
-      float: none;
-      display: block;
-      margin: 0 auto 20px auto;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dongsheng Wang | AI Applied Scientist & Quantitative Researcher</title>
+  <style>
+    body {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 25px;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      line-height: 1.65;
+      color: #24292e;
+      font-weight: 350;
     }
-  }
-</style>
+    h1 { font-size: 2.2rem; font-weight: 600; color: #111; margin-bottom: 6px; }
+    h2, h3 { font-weight: 550; color: #111; margin-top: 36px; border-bottom: 1px solid #eaecef; padding-bottom: 8px; }
+    a { color: #0366d6; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    ul { padding-left: 20px; }
+    li { margin-bottom: 10px; }
+    hr { border: none; border-top: 1px solid #e1e4e8; margin: 30px 0; }
+    
+    .profile-avatar {
+      float: right;
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      margin-left: 25px;
+      margin-bottom: 15px;
+      object-fit: cover;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+      background-color: #f3f3f3;
+    }
 
-<!-- 头像路径，替换为你在仓库上传的照片文件名，如 profile.jpg -->
-<img src="profile.jpg" alt="Dongsheng Wang" class="profile-avatar">
+    .subtitle {
+      font-size: 1.05rem;
+      color: #444;
+      margin-bottom: 12px;
+    }
 
-# Dongsheng Wang
+    .links {
+      margin-top: 15px;
+      font-weight: 450;
+    }
 
-Incoming Lead Applied Scientist at Thomson Reuters Lab *(Oct 2026)*  
-AI Quantitative Researcher at Verition Fund Management  
-*Former VP & AI Research Lead at J.P. Morgan AI Research*
+    @media (max-width: 600px) {
+      .profile-avatar {
+        float: none;
+        display: block;
+        margin: 0 auto 20px auto;
+      }
+    }
+  </style>
+</head>
+<body>
 
-<div style="margin-top: 15px;">
-[Google Scholar](https://scholar.google.com/citations?user=ILPAzmAAAAAJ&hl=en) • [LinkedIn](https://www.linkedin.com/in/dongsheng-wang-14036179/) • [Medium](https://dongshengwang.medium.com/)
-</div>
+  <!-- 头像防破图保护：如果没检测到 profile.jpg 会自动隐藏占位图，不会出现裂图图标 -->
+  <img src="profile.jpg" alt="Dongsheng Wang" class="profile-avatar" onerror="this.style.display='none'">
 
-<div style="clear: both;"></div>
+  <h1>Dongsheng Wang</h1>
 
----
+  <div class="subtitle">
+    <strong>Incoming Lead Applied Scientist at Thomson Reuters Lab</strong> <em>(Oct 2026)</em><br>
+    AI Quantitative Researcher at Verition Fund Management<br>
+    <em>Former VP & AI Research Lead at J.P. Morgan AI Research</em>
+  </div>
 
-### Biography
+  <div class="links">
+    <a href="https://scholar.google.com/citations?user=ILPAzmAAAAAJ&hl=en" target="_blank">Google Scholar</a> • 
+    <a href="https://www.linkedin.com/in/dongsheng-wang-14036179/" target="_blank">LinkedIn</a> • 
+    <a href="https://dongshengwang.medium.com/" target="_blank">Medium</a>
+  </div>
 
-I am an incoming Lead Applied Scientist at Thomson Reuters Lab and currently an AI Quantitative Researcher at Verition Fund Management's AI Lab, where I built the firm's core AI platform from 0 to 1. Previously, I was Vice President and AI Research Lead at J.P. Morgan AI Research in London, initiating and leading the flagship *DocLLM* project.
+  <div style="clear: both;"></div>
 
-I received my Ph.D. in Computer Science from the University of Copenhagen (part of the EU [Horizon 2020 Marie Skłodowska-Curie](https://www.quartz-itn.eu/people/esr9) program). My career spans key research and engineering roles across quantitative finance, legal-tech, and tech industry leaders including Tencent AI and the Chinese Academy of Sciences (CAS).
+  <hr>
 
----
+  <h3>Biography</h3>
+  <p>
+    I am an incoming Lead Applied Scientist at Thomson Reuters Lab and currently an AI Quantitative Researcher at Verition Fund Management's AI Lab, where I built the firm's core AI platform from 0 to 1. Previously, I was Vice President and AI Research Lead at J.P. Morgan AI Research in London, initiating and leading the flagship <em>DocLLM</em> project.
+  </p>
+  <p>
+    I received my Ph.D. in Computer Science from the University of Copenhagen (part of the EU <a href="https://www.quartz-itn.eu/people/esr9" target="_blank">Horizon 2020 Marie Skłodowska-Curie</a> program). My career spans key research and engineering roles across quantitative finance, legal-tech, and tech industry leaders including Tencent AI and the Chinese Academy of Sciences (CAS).
+  </p>
 
-### Core Expertise & Engineering Impact
+  <h3>Core Expertise & Engineering Impact</h3>
+  <ul>
+    <li><strong>Generative AI Platforms & Agents</strong> — Built production-grade AI platforms, Hierarchical Deep-RAG agent orchestration, Model Context Protocol (MCP) integrations, and semantic feature pipelines.</li>
+    <li><strong>Document AI & Foundation Models</strong> — Principal architect of layout-aware generative models (<a href="https://aclanthology.org/2024.acl-long.463/" target="_blank"><em>DocLLM</em>, ACL 2024</a>) and graph-augmented models (<em>DocGraphLM</em>, SIGIR 2023) for complex enterprise documents.</li>
+    <li><strong>Knowledge Representation & Evolution</strong> — Built large-scale Knowledge Graphs at CAS (<em>Linked-Brain-Data</em>), before pivoting to Neural NLP and Agentic LLM architectures. Author of <a href="https://dongshengwang.medium.com/5-reasons-knowledge-graph-will-never-bloom-418601957f33" target="_blank"><em>5 Reasons Knowledge Graph Will Never Bloom</em></a> <em>(2021)</em>.</li>
+  </ul>
 
-* **Generative AI Platforms & Agents** — Built production-grade AI platforms, Hierarchical Deep-RAG agent orchestration, Model Context Protocol (MCP) integrations, and semantic feature pipelines.
-* **Document AI & Foundation Models** — Principal architect of layout-aware generative models ([*DocLLM*, ACL 2024](https://aclanthology.org/2024.acl-long.463/)) and graph-augmented models (*DocGraphLM*, SIGIR 2023) for complex enterprise documents.
-* **Knowledge Representation & Evolution** — Built large-scale Knowledge Graphs at CAS (*Linked-Brain-Data*), before pivoting to Neural NLP and Agentic LLM architectures. Author of [*5 Reasons Knowledge Graph Will Never Bloom*](https://dongshengwang.medium.com/5-reasons-knowledge-graph-will-never-bloom-418601957f33) *(2021)*.
+  <h3>Featured Publications & Patents</h3>
+  <ul>
+    <li><strong>[ACL 2025]</strong> <em>CoCoLex: Confidence-guided Copy-based Decoding for Grounded Legal Text Generation.</em></li>
+    <li><strong>[ACL 2024]</strong> <em>DocLLM: A layout-aware generative language model for multimodal document understanding.</em> (Main Conference)</li>
+    <li><strong>[SIGIR 2023]</strong> <em>DocGraphLM: Documental Graph Language Model for Information Extraction.</em></li>
+    <li><strong>[PhD Thesis]</strong> <a href="https://arxiv.org/abs/2106.08117" target="_blank"><em>Semantic Representation and Inference for Natural Language Processing</em></a>.</li>
+    <li><strong>[US Patent 2023]</strong> <em>System and method for layout-aware generative pretraining for visually rich document understanding.</em> (J.P. Morgan)</li>
+  </ul>
+  <p><em>Note: For a full publication list, please visit my <a href="https://scholar.google.com/citations?user=ILPAzmAAAAAJ&hl=en" target="_blank">Google Scholar</a>.</em></p>
 
----
+  <h3>Selected Keynotes & Talks</h3>
+  <ul>
+    <li><strong>Invited Speaker (2024)</strong>: UCL TechSocial Series — <a href="https://www.ucl.ac.uk/research-innovation/advanced-research-computing/digital-research-community-events-support/events/techsocial-series/techsocial-series-archive/techsocial-series-march-2024" target="_blank"><em>Document AI and Large Language Models</em></a>.</li>
+    <li><strong>Invited Keynote (2023)</strong>: Shanghai Library Lecture — <a href="https://www.youtube.com/watch?v=Ui4XvEMLLyY" target="_blank"><em>Large Language Models and Knowledge Graphs</em></a>.</li>
+  </ul>
 
-### Featured Publications & Patents
-
-* **[ACL 2025]** *CoCoLex: Confidence-guided Copy-based Decoding for Grounded Legal Text Generation.*
-* **[ACL 2024]** *DocLLM: A layout-aware generative language model for multimodal document understanding.* (Main Conference)
-* **[SIGIR 2023]** *DocGraphLM: Documental Graph Language Model for Information Extraction.*
-* **[PhD Thesis]** [*Semantic Representation and Inference for Natural Language Processing*](https://arxiv.org/abs/2106.08117).
-* **[US Patent 2023]** *System and method for layout-aware generative pretraining for visually rich document understanding.* (J.P. Morgan)
-
-*Note: For a full publication list, please visit my [Google Scholar](https://scholar.google.com/citations?user=ILPAzmAAAAAJ&hl=en).*
-
----
-
-### Selected Keynotes & Talks
-
-* **Invited Speaker (2024)**: UCL TechSocial Series — [*Document AI and Large Language Models*](https://www.ucl.ac.uk/research-innovation/advanced-research-computing/digital-research-community-events-support/events/techsocial-series/techsocial-series-archive/techsocial-series-march-2024).
-* **Invited Keynote (2023)**: Shanghai Library Lecture — [*Large Language Models and Knowledge Graphs*](https://www.youtube.com/watch?v=Ui4XvEMLLyY).
+</body>
+</html>
