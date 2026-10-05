@@ -41,6 +41,18 @@
       font-size: 1.05rem;
       color: #444;
       margin-bottom: 12px;
+      flex-direction: column; /* 让两个 span 自动上下分行 */
+      gap: 2px;                  /* 两行之间的间距 */
+    }
+
+    .role-main {
+      font-weight: 600;
+      color: #111;
+    }
+    
+    .role-sub {
+      color: #666;
+      font-size: 0.95em;
     }
 
     .links {
@@ -63,10 +75,11 @@
   <img src="profile.jpg" alt="Dongsheng Wang" class="profile-avatar" onerror="this.style.display='none'">
 
   <h1>Dongsheng Wang, PhD</h1>
-
   <div class="subtitle">
-Incoming Lead Applied Scientist @ Thomson Reuters Lab | AI Quant @ Verition | ex-J.P. Morgan AI Research Lead
+    <span class="role-main">Incoming Lead Applied Scientist @ Thomson Reuters Lab</span>
+    <span class="role-sub">AI Quant @ Verition • ex-J.P. Morgan AI Research Lead</span>
   </div>
+  
 
   <div class="links">
     <a href="https://scholar.google.com/citations?user=ILPAzmAAAAAJ&hl=en" target="_blank">Google Scholar</a> • 
